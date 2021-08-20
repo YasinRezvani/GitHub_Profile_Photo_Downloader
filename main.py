@@ -12,6 +12,7 @@ table.rows.append([data])
 table.columns.header = ["Download Link"]
 table.set_style(BeautifulTable.STYLE_BOX_ROUNDED) 
 print(table)
+input()
 
 # Made By Yasin Rezvani
 
