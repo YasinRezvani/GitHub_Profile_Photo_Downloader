@@ -1,6 +1,10 @@
 # GitHub_Profile_Photo_Downloader
 The simple Downloader to get profile photo in GitHub
-
+# Install the requirements
+First you should install the requirements:
+```
+$ pip install bs4 beautifultable requests
+```
 # How Work
 #### First you fill the input "Enter GitHub user:" for example YasinRezvani and After give link to download photo like this:
 > Enter GitHub user: YasinRezvani  
