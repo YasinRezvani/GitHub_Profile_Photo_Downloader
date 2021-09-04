@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup as bs
 
 root= Tk()
 
+root.title("GitHub_Profile_Photo_Downloader")
 root.geometry("500x160")
 root.resizable(False, False)
 
