@@ -9,7 +9,7 @@ url = "https://github.com/" + github_user
 req = requests.get(url)
 scrab = bs(req.content, "html.parser")
 data = scrab.find("img" , {"alt" : "Avatar"})['src']
-print("\n")
+print("")
 table.rows.append([data])                
 copy_link = "echo " + data.strip() + "| clip"
 os.system(copy_link)
