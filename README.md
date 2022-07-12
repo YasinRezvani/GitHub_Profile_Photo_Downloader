@@ -3,7 +3,7 @@ The simple and GUI GitHub Profile Downloader
 # Install the requirements
 First you should install the requirements:
 ```
-$ pip install bs4 beautifultable requests
+pip install bs4 beautifultable requests
 ```
 # Demo :tada:
 ### Simple
